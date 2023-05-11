@@ -1,0 +1,26 @@
+PUT http://localhost:5000/users/230bffe1-9c49-4d36-8efa-6c51970f302f
+Content-Type: application/json
+
+{
+    "name": "satriani cantik",
+    "email": "satriani@gmail.com",
+    "role": "admin"
+}
+
+###
+
+DELETE http://localhost:5000/users/230bffe1-9c49-4d36-8efa-6c51970f302f
+
+###
+GET http://localhost:5000/users
+###
+POST http://localhost:5000/posts
+Content-Type: application/json
+
+{
+    "body": "Lorem ipsum dolor sit amet 2",
+    "userUuid": "7a6ef9e9-74fb-49b9-8d7f-13b4b9be5800"
+}
+
+###
+GET http://localhost:5000/posts
